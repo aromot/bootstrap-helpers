@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-helpers",
+  "version": "0.0.1",
+  "description": "A set of helpers to generate Bootstrap components.",
+  "main": "src/index.js",
+  "scripts": {
+    "start-dev": "webpack -w -d",
+    "start-prod": "webpack -w -p",
+    "profile": "webpack --profile --json > stats.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aromot/bootstrap-helpers.git"
+  },
+  "keywords": [],
+  "author": "Alex Romot <aromot@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aromot/bootstrap-helpers/issues"
+  },
+  "homepage": "https://github.com/aromot/bootstrap-helpers#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "handlebars": "^4.0.10",
+    "handlebars-loader": "^1.6.0",
+    "path": "^0.12.7",
+    "webpack": "^3.6.0"
+  }
+}
