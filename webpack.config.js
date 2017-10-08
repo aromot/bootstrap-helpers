@@ -5,7 +5,9 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bootstrap-helpers.js'
+        filename: 'bootstrap-helpers.js',
+        library: 'bootstrapHelpers',
+        libraryTarget: 'umd'
     },
     module: {
         loaders: [
