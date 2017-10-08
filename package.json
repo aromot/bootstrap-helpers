@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-helpers",
+  "name": "@aromot/bootstrap-helpers",
   "version": "0.0.1",
   "description": "A set of helpers to generate Bootstrap components.",
   "main": "src/index.js",
