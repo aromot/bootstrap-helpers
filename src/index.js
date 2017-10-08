@@ -1,5 +1,5 @@
 module.exports = {
-    label: function (str) {
-        return '<span class="label label-default">'+str+'</span>';
+    label: function (str, type) {
+        return '<span class="label label-'+type+'">'+str+'</span>';
     }
 };
