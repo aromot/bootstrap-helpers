@@ -1,5 +1,8 @@
 module.exports = {
-    label: function (str, type) {
-        return '<span class="label label-'+type+'">'+str+'</span>';
+    label: function (caption) {
+        var tpl = require('./templates/label.hbs.html');
+        return tpl({
+            caption: caption
+        });
     }
 };
